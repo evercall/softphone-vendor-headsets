@@ -1,5 +1,5 @@
-import { PolyHPWebHIDSDK } from "./PolyHPWebHIDSDK"
+import { PolyHPWebHIDSDK } from "./PolyHPWebHIDSDK";
 
 export {
-    PolyHPWebHIDSDK
-}
+  PolyHPWebHIDSDK
+};

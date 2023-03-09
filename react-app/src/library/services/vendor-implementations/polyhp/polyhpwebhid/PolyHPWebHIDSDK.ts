@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+/* eslint-disable */
 // Poly | HP WebHID SDK - TypeScript version
 // Allows you to add call control to Softphones/Contact Center Solutions for Poly | HP 
 // headsets and speaker devices

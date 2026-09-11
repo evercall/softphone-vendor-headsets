@@ -26,6 +26,27 @@ npm install --save softphone-vendor-headsets
 yarn add softphone-vendor-headsets
 ```
 
+## Usage
+
+Import the package from its root in TypeScript or ES modules:
+
+```ts
+import HeadsetService, {
+  HeadsetEvents,
+  VendorImplementation,
+} from 'softphone-vendor-headsets';
+```
+
+CommonJS consumers can require the same package root:
+
+```js
+const {
+  default: HeadsetService,
+  HeadsetEvents,
+  VendorImplementation,
+} = require('softphone-vendor-headsets');
+```
+
 ## Documentation
 
 

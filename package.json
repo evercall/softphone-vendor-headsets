@@ -7,9 +7,19 @@
   "module": "dist/es/src/library/index.js",
   "main": "dist/cjs/src/library/index.js",
   "web": "dist/softphone-vendor-headsets.js",
+  "types": "dist/es/src/library/index.d.ts",
   "typings": "dist/es/src/library/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/es/src/library/index.d.ts",
+      "import": "./index.mjs",
+      "require": "./dist/cjs/src/library/index.js",
+      "default": "./dist/cjs/src/library/index.js"
+    }
+  },
   "files": [
-    "dist"
+    "dist",
+    "index.mjs"
   ],
   "repository": {
     "url": "https://github.com/purecloudlabs/softphone-vendor-headsets",

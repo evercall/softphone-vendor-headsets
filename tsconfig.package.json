@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "./react-app/src/library/**/*.ts"
+  ],
+  "exclude": [
+    "./react-app/src/library/**/*.test.ts",
+    "./react-app/src/library/test-utils.ts"
+  ]
+}

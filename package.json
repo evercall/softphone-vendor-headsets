@@ -16,7 +16,7 @@
     "type": ""
   },
   "engines": {
-    "node": ">=24"
+    "node": ">=22"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
